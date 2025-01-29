@@ -1,0 +1,56 @@
+
+:root{
+  --color-background: #F5F7FA; 
+  --color-surface: #FFFFFF;    
+
+
+  --color-text: #2C3E50;     
+  --color-heading: #1F2D3D;   
+
+
+  --color-accent: #3498DB;  
+  --color-secondary: #FFB800;
+
+ 
+  --color-border: #DDE2EB;  
+
+  
+  --color-link-hover: #1B73A7;
+
+
+
+}
+
+@font-face {
+  font-family: 'FiraSans';
+  src: url('/fonts/FiraSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+
+@font-face {
+  font-family: 'FiraSans';
+  src: url('/fonts/FiraSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: 'FiraSans';
+  src: url('/fonts/FiraSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+
+html, body {
+    height: 100%;
+    font-family: 'FiraSans', san-serif;
+    font-size: 16px;
+}
+
